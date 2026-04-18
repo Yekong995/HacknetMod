@@ -13,7 +13,7 @@ namespace WorldToolKit.Command
     public class CommandManager
     {
         // Command that can crack any port on any computer
-        public static void PortHackCommand(OS os, string[] args)
+        public static void PortCrackCommand(OS os, string[] args)
         {
             Computer computer = ComUtils.GetComputer(os);
             if (computer == null)
@@ -190,7 +190,8 @@ namespace WorldToolKit.Command
             {
                 os.write("Error: Computer no found!");
                 return;
-            } else if (at_least_one_open == false)
+            }
+            else if (at_least_one_open == false)
             {
                 os.write("Error: Please crack at least one port!");
                 return;

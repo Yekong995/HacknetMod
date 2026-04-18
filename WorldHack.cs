@@ -26,7 +26,7 @@ namespace WorldHack
 
         public override bool Load()
         {
-            Pathfinder.Command.CommandManager.RegisterCommand("PortHack", CommandManager.PortHackCommand);
+            Pathfinder.Command.CommandManager.RegisterCommand("PortCrack", CommandManager.PortCrackCommand);
             Pathfinder.Command.CommandManager.RegisterCommand("Bypass", CommandManager.BypassCommand);
             Pathfinder.Command.CommandManager.RegisterCommand("Firewall", CommandManager.FirewallCommand);
             Pathfinder.Command.CommandManager.RegisterCommand("InitializeBackdoor", CommandManager.InitializeBackdoor);
