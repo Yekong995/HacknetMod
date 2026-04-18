@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "OMLBKTiwc+o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\baiye\\Documents\\works\\HacknetMod\\WorldHack.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\baiye\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\baiye\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net48\\1.0.3\\microsoft.netframework.referenceassemblies.net48.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
