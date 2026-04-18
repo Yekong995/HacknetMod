@@ -32,7 +32,7 @@ namespace WorldHack
             Pathfinder.Command.CommandManager.RegisterCommand("InitializeBackdoor", CommandManager.InitializeBackdoor);
             Pathfinder.Command.CommandManager.RegisterCommand("Backdoor", CommandManager.BackdoorCommand);
             Pathfinder.Command.CommandManager.RegisterCommand("TrapKill", CommandManager.TrapKill);
-            Pathfinder.Command.CommandManager.RegisterCommand("Crasher", CommandManager.CrashCommand);
+            Pathfinder.Command.CommandManager.RegisterCommand("Crash", CommandManager.CrashCommand);
 
             return true;
         }
