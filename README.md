@@ -14,4 +14,4 @@ The following are the commands added to the game.
 | InitializeBackdoor | Install backdoor on target machine <br> Attention: You must get administrator before running this command | InitializeBackdoor |
 | Backdoor | Let user get administrator and login immediately with backdoor <br> Attention: You must run `InitializeBackdoor` command at target machine before this command | Backdoor |
 | TrapKill | Stop and kill all the tracer | TrapKill |
-| Crash | Try to reset port numbers and security level for hacking | Crash |
+| Crash | Try to reset port numbers and security level for hacking <br> This command make some computer to be hackable | Crash |
